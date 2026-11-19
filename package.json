@@ -1,0 +1,60 @@
+{
+  "name": "@imaegoo/dsh-open-viewed-image",
+  "version": "1.0.0",
+  "description": "Opens each image the agent reads with read_image in the right Sidebar, replacing the previous one.",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "image",
+    "sidebar",
+    "read_image",
+    "viewer"
+  ],
+  "license": "MIT",
+  "author": "iMaeGoo",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/imaegoo/dsh-open-viewed-image.git"
+  },
+  "bugs": {
+    "url": "https://github.com/imaegoo/dsh-open-viewed-image/issues"
+  },
+  "homepage": "https://github.com/imaegoo/dsh-open-viewed-image#readme",
+  "type": "module",
+  "scripts": {
+    "test": "node test/plugin.test.cjs"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-sidebar-right",
+        "@deepseek-ai/dsh-client-ui-sidebar-documentpreview"
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Open viewed image",
+    "description": "Opens each image the agent reads with read_image in the right Sidebar, replacing the previous one.",
+    "detail": "docs/DETAIL.md"
+  }
+}

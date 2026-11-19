@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "查看图片时自动打开侧栏",
+    "description": "助手用 read_image 看图时，自动在右侧边栏打开这张图片，并用新图替换上一张。",
+    "detail": "docs/DETAIL.md"
+  }
+}

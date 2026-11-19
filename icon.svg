@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" role="img" aria-label="Open viewed image">
+  <!-- The picture the agent is looking at. -->
+  <rect x="4" y="7" width="18" height="22" rx="3" fill="none" stroke="#247bbf" stroke-width="1.8"/>
+  <circle cx="9.6" cy="13.2" r="1.9" fill="#247bbf"/>
+  <path d="M6.2 25.1 L11.4 18.4 L14.6 22.1 L17 19.2 L19.8 22.7 L19.8 25.1 Z" fill="#247bbf"/>
+  <!-- The right Sidebar column that opens to show it. -->
+  <rect x="25" y="7" width="7" height="22" rx="2.5" fill="none" stroke="#247bbf" stroke-width="1.8"/>
+  <path d="M27.4 12.6 H29.6" stroke="#247bbf" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M27.4 17.4 H29.6" stroke="#247bbf" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M27.4 22.2 H29.6" stroke="#247bbf" stroke-width="1.6" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,3 @@
+- insert:
+    - id: open-viewed-image
+      name: '@imaegoo/dsh-open-viewed-image'
